@@ -1,0 +1,529 @@
+/* -----------------------
+--------- Geral ----------
+----------------------- */
+
+main {
+  background-color: transparent;
+  font-family: 'Muli', sans-serif;
+}
+.enviar{
+  padding: 1.2%;
+  background-color: #1c55ff;
+  color: white;
+  width: 40%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.rodape2{
+  width: 18%;padding-left: 4%;padding-bottom: 4%;
+}
+.rodape22{
+  width: 18%;padding-left: 4%;padding-bottom: 4%;
+}
+.enviar2{
+  padding: 1.2%;
+  background-color: #1c55ff;
+  color: white;
+  width: 40%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+#intro{
+  background-color: #FFF1B9; 
+  padding-top: 7rem;
+  padding-right: 0;
+  padding-left: 0;
+  height: 100%;
+}
+table.GeneratedTable {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1.5px;
+  border-color: transparent;
+  border-style: solid;
+  color: #000000;
+  text-align: left;
+  width: 100%;
+}
+.GeneratedTable p{
+  margin-bottom: 0;
+}
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 1.5px;
+  border-color: transparent;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffffff;
+}
+
+.intro{
+  font-size: 38px;
+  text-transform: uppercase;
+  line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.bubble {
+    position: relative;
+    background: #fff1b9;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    color: black;
+    text-align: center;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #fff1b9 transparent;
+    border-width: 35px 34px 0;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -34px;
+}
+
+.botao{
+   text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: auto;
+    padding: 1.4%;
+    color: #1c55ff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.botao:hover{
+    background-color: #1c55ff;
+    color: black;
+}
+.botao2:hover{
+     background-color: #1c55ff;
+    color: black;
+}
+.botao3:hover{
+     background-color: #1c55ff;
+    color: black;
+}
+.botao4:hover{
+     background-color: #1c55ff;
+    color: black;
+}
+.botao2, .botao3, .botao4{
+  text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: auto;
+    padding: 1%;
+    color: #1c55ff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+}
+
+a, a:hover, a:focus {
+  color: inherit;
+  text-decoration: underline;
+}
+.accordion {
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-control {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 47px;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 12%;
+}
+.accordion-control:hover{
+  background-color:  #fff1b9;
+}
+.active{
+  background-color:  #fff1b9;
+}
+.accordion li {
+  padding: 0px;
+  list-style-type:none;
+  margin-bottom: 2%;
+}
+.accordion-panel {
+  display:none;
+  background-color: rgb(28, 85, 255);
+    color: white;
+    padding: 2%;
+}
+
+button {
+  border:none;
+}
+.fas{
+      top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCD117;
+    cursor: pointer;
+    z-index: 2;
+    width: 50px;
+    color: black;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.accordion2 {
+  color: #666;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.accordion-control2 {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 47px;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-control2:hover{
+  background-color:  #fff1b9;
+}
+.active{
+  background-color:  #fff1b9;
+}
+.accordion2 li{
+  padding: 0px;
+  list-style-type:none;
+  margin-bottom: 2%;
+}
+.accordion-panel2 {
+  display:none;
+  background-color: rgb(28, 85, 255);
+    color: white;
+    padding: 4%;
+}
+.active2{
+  background-color:  #fff1b9;
+}
+
+.flex {
+  display: flex;
+}
+
+.subtitulo{
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+.para{
+      position: absolute;
+    top: 7%;
+    left: 13%;
+    width: 82%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+.assunto{
+   position: absolute;
+    top: 13%;
+    left: 17%;
+    width: 80%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+.mensagem{
+       position: absolute;
+    top: 23%;
+    left: 7%;
+    width: 86%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+    max-height: 53%;
+    overflow: auto;
+     min-height: 25%;
+}
+.elemento_clicavel {
+  position: absolute;
+  cursor: pointer;
+}
+
+#item_1 {
+     height: 9.24%;
+    left: 5%;
+    top: 79%;
+    width: 22%;
+}
+
+@media screen and (max-width: 575px) {
+  .accordion-control {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 47px;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 12%;
+}
+.accordion-control2 {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 47px;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+  .botao2, .botao3, .botao4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: auto;
+    padding: 1%;
+    color: #1c55ff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+  table.GeneratedTable {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  color: #000000;
+  text-align: left;
+  font-size: 14px;
+  min-width: 280px;
+}
+#tabela{
+  width: 100%;
+  overflow: scroll;
+}
+.para{
+   position: absolute;
+    top: 6.8%;
+    left: 16%;
+    width: 80%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+.assunto {
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    width: 77%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+.mensagem{
+    position: absolute;
+    top: 24%;
+    left: 8%;
+    width: 83%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+    max-height: 53%;
+    overflow: auto;
+}
+  .subtitulo{
+  text-transform: uppercase;
+  font-size: 21px;
+}
+ 
+  #intro{
+  padding-top: 7rem;
+  padding-bottom: 12%;
+}
+  .imagem_intro{
+  width: 100%;
+}
+ 
+  .botao, .botao2, .botao3{
+    font-size: 16px;
+  }
+
+  .intro{
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 575px) {
+  .botao2, .botao3, .botao4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: auto;
+    padding: 1%;
+    color: #1c55ff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #1c55ff;
+    font-weight: 600;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+  #intro {
+    background-color: #FFF1B9;
+    padding-top: 7rem;
+    padding-right: 0;
+    padding-left: 0;
+    height: 100%;
+    padding-bottom: 7%;
+}
+  .para{
+   position: absolute;
+    top: 8%;
+    left: 16%;
+    width: 80%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+.assunto {
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    width: 77%;
+    z-index: 100;
+    border: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+  .imagem_intro{
+  width: 60%;
+}
+
+  .botao, .botao2, .botao3{
+    font-size: 16px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width: 575px) {
+
+
+    .imagem_intro{
+  width: 60%;
+}
+  
+  .botao, .botao2 .botao3,{
+    font-size: 11px;
+    width: 180px;
+  }
+}
+@media print{
+.print {
+display:block;
+-webkit-print-color-adjust: exact;
+}
+
+.no-print { 
+display:none; 
+}
+}
+
+@media screen and (max-width: 574px) and (min-width: 175px) {
+  .rodape2{
+  width: 25%;padding-left: 4%;padding-bottom: 4%;
+}
+.rodape22{
+  width: 25%;padding-left: 4%;padding-bottom: 4%;
+}
+}
